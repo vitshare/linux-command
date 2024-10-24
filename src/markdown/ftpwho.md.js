@@ -1,5 +1,4 @@
 module.exports = `
-
 显示当前每个ftp会话信息
 
 ## 补充说明
@@ -20,5 +19,4 @@ ftpwho(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

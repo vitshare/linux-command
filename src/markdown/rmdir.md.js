@@ -1,5 +1,4 @@
 module.exports = `
-
 用来删除空目录
 
 ## 补充说明
@@ -51,5 +50,5 @@ rmdir -p a/b/c
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

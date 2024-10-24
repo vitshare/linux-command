@@ -1,5 +1,4 @@
 module.exports = `
-
 将字符进行替换压缩和删除
 
 ## 补充说明
@@ -103,5 +102,4 @@ tr '[:lower:]' '[:upper:]'
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

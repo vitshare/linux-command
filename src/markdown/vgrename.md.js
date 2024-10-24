@@ -1,5 +1,4 @@
 module.exports = `
-
 使用vgrename命令可以重命名卷组的名称
 
 ## 补充说明
@@ -35,5 +34,5 @@ vgrename [选项] [旧卷组路径|旧卷组名称|旧卷组UUID] [新卷组路�
   Volume group "vg1" successfully renamed to "vg2"
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

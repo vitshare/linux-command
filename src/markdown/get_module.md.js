@@ -1,5 +1,4 @@
 module.exports = `
-
 获取Linux内核模块的详细信息
 
 ## 补充说明
@@ -63,5 +62,4 @@ Sections:
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

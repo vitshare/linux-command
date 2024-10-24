@@ -1,5 +1,4 @@
 module.exports = `
-
 用来解压缩文件
 
 ## 补充说明
@@ -63,5 +62,4 @@ compressed        uncompressed ratio uncompressed_name
 通过上面的示例可以知道\`gzip –d\`等价于\`gunzip\`命令。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

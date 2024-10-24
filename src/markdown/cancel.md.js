@@ -1,5 +1,4 @@
 module.exports = `
-
 取消已存在的打印任务
 
 ## 补充说明
@@ -27,5 +26,4 @@ cancel(选项)(参数)
 打印任务号：指定要取消的打印任务编号。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 交互方式访问samba服务器
 
 ## 补充说明
@@ -82,5 +81,4 @@ smbclient -c "mkdir share1" //192.168.0.1/tmp -U username%password
 如果用户共享\`//192.168.0.1/tmp\`的方式是只读的，会提示\`NT_STATUS_ACCESS_DENIED making remote directory /share1\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 解压缩由arj命令创建的压缩包
 
 ## 补充说明
@@ -26,5 +25,4 @@ x：解压缩时保留原有的路径。
 .arj压缩包：指定要解压缩的.arj压缩包。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

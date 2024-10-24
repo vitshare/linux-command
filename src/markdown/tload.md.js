@@ -1,5 +1,4 @@
 module.exports = `
-
 显示系统负载状况
 
 ## 补充说明
@@ -37,5 +36,4 @@ tload -d 1
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

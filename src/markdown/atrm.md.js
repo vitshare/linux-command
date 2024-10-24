@@ -1,5 +1,4 @@
 module.exports = `
-
 删除待执行任务队列中的指定任务
 
 ## 补充说明
@@ -35,5 +34,4 @@ atrm 2     # 删除任务2
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

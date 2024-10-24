@@ -1,5 +1,4 @@
 module.exports = `
-
 显示本机的USB设备列表信息
 
 ## 补充说明
@@ -71,5 +70,4 @@ Bus 002 Device 001: ID 0000:0000**
 * 一个是usb鼠标  -- 006
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

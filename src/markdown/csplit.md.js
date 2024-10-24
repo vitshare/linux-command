@@ -1,5 +1,4 @@
 module.exports = `
-
 将一个大文件分割成小的碎片文件
 
 ## 补充说明
@@ -72,5 +71,4 @@ rm server00.log    #是删除第一个文件，因为分割后的的第一个文
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

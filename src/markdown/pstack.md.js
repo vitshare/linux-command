@@ -1,5 +1,4 @@
 module.exports = `
-
 显示每个进程的栈跟踪
 
 ## 补充说明
@@ -97,5 +96,4 @@ Thread 1 (Thread 182894129792 (LWP 4551)):
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 显示逻辑卷属性
 
 ## 补充说明
@@ -34,5 +33,4 @@ lvdisplay(参数)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

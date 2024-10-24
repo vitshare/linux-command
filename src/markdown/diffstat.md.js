@@ -1,5 +1,4 @@
 module.exports = `
-
 显示diff命令输出信息的柱状图
 
 ## 补充说明
@@ -64,5 +63,4 @@ testfile | 2 +-             #统计信息输出显示
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

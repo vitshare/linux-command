@@ -1,5 +1,4 @@
 module.exports = `
-
 用于创建和管理.arj压缩包
 
 ## 补充说明
@@ -18,5 +17,4 @@ arj(参数)
 *  压缩包名称：指定要操作的arj压缩包名称。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

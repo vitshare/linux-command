@@ -1,5 +1,4 @@
 module.exports = `
-
 用于解压缩由zip命令压缩的压缩包
 
 ## 补充说明
@@ -71,6 +70,11 @@ unzip -v test.zip
 unzip -o test.zip -d tmp/
 \`\`\`
 
+解压指定文件，* 用作通配符。
+\`\`\`shell
+unzip test.zip "*.jpg"
+\`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
+
 `;

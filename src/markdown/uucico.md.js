@@ -1,5 +1,4 @@
 module.exports = `
-
 UUCP文件传输服务程序
 
 ## 补充说明
@@ -46,5 +45,4 @@ uucico-r1
 提示：该命令一般没有输出。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 Debian Linux系统中软件包管理工具
 
 ## 补充说明
@@ -47,5 +46,4 @@ aptitude autoclean         # 仅删除过期的包文件
 当然，你也可以在文本界面模式中使用 aptitude。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

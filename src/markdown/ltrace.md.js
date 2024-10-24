@@ -1,5 +1,4 @@
 module.exports = `
-
 用来跟踪进程调用库函数的情况
 
 ## 补充说明
@@ -75,7 +74,7 @@ SYS_fstat64(3, 0xbfbd7a94, 0xa4afc0, -1, 3) = 0
 SYS_mmap2(0, 17, 3, 2, 3) = 0xb7f2a000
 SYS_close(3) = 0
 SYS_open("/lib/libcwait.so", 0, 00) = 3
-SYS_read(3, "\\177ELF\\001\\001\\001", 512) = 512
+SYS_read(3, "\177ELF\001\001\001", 512) = 512
 SYS_fstat64(3, 0xbfbd76fc, 0xa4afc0, 4, 0xa4b658) = 0
 SYS_mmap2(0, 4096, 3, 34, -1) = 0xb7f29000
 SYS_mmap2(0, 5544, 5, 2050, 3) = 0x423000
@@ -84,5 +83,4 @@ SYS_mmap2(0x424000, 4096, 3, 2066, 3) = 0x424000
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 收集主机公钥的使用工具
 
 ## 补充说明
@@ -29,5 +28,4 @@ ssh-keyscan(选项)(参数)
 主机列表：指定要收集公钥的主机列表。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 将目标文件连接为可执行程序
 
 ## 补充说明
@@ -26,7 +25,7 @@ ld [options] objfile ...
 
 ### 实例
 
-这告诉ld通过将文件“/lib/crt0.o”与“hello.o”和库“libc.a”链接起来，生成一个名为output的文件，该文件将来自标准搜索目录。
+这告诉ld通过将文件 \`/lib/crt0.o\` 与 \`hello.o\` 和库 \`libc.a\` 链接起来，生成一个名为 \`output\` 的文件，该文件将来自标准搜索目录。
 
 \`\`\`shell
 ld -o <output> /lib/crt0.o hello.o -lc
@@ -34,5 +33,5 @@ ld -o output /lib/crt0.o hello.o -lc
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

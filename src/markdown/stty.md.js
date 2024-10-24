@@ -1,5 +1,4 @@
 module.exports = `
-
 修改终端命令行的相关设置
 
 ## 补充说明
@@ -93,5 +92,4 @@ read -t 10 varname
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

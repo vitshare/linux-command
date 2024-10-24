@@ -1,5 +1,4 @@
 module.exports = `
-
 控制系统服务的实用工具
 
 ## 补充说明
@@ -55,5 +54,4 @@ service mysqld restart
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

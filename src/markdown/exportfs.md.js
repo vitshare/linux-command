@@ -1,5 +1,4 @@
 module.exports = `
-
 管理NFS共享文件系统列表
 
 ## 补充说明
@@ -19,5 +18,4 @@ exportfs 命令用来管理当前NFS共享的文件系统列表。
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

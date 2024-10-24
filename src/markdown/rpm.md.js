@@ -1,5 +1,4 @@
 module.exports = `
-
 RPM软件包的管理工具
 
 ## 补充说明
@@ -238,5 +237,4 @@ rpm2cpio | cpio -idv
 /usr/share/man/ manual
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

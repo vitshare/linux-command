@@ -1,5 +1,4 @@
 module.exports = `
-
 whois 客户端服务
 
 ## 补充说明
@@ -58,5 +57,4 @@ Registrar WHOIS Server: whois.west263.com
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

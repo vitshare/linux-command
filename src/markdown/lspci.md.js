@@ -1,5 +1,4 @@
 module.exports = `
-
 显示当前主机的所有PCI总线信息
 
 ## 补充说明
@@ -76,5 +75,4 @@ lspci(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

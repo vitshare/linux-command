@@ -1,5 +1,4 @@
 module.exports = `
-
 自动处理可载入模块
 
 ## 补充说明
@@ -52,7 +51,7 @@ alias symbol:ip_conntrack_unregister_notifier ip_conntrack
 modprobe -l
 \`\`\`
 
-这里，我们能查看到我们所需要的模块，然后根据我们的需要来挂载；其实\`modprobe -l\`读取的模块列表就位于/lib/modules/\`uname -r \`目录中；其中\`uname -r\`是内核的版本，例如输出结果的其中一行是：
+这里，我们能查看到我们所需要的模块，然后根据我们的需要来挂载；其实\`modprobe -l\`读取的模块列表就位于/lib/modules/\\`uname -r \\`目录中；其中\`uname -r\`是内核的版本，例如输出结果的其中一行是：
 
 \`\`\`shell
 /lib/modules/2.6.18-348.6.1.el5/kernel/net/netfilter/xt_statistic.ko
@@ -75,5 +74,5 @@ modprobe -r 模块名
 这里，移除已加载的模块，和rmmod功能相同。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

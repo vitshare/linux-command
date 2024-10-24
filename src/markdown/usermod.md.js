@@ -1,5 +1,4 @@
 module.exports = `
-
 用于修改用户的基本信息
 
 ## 补充说明
@@ -79,5 +78,5 @@ lutixiaya
 new_home
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

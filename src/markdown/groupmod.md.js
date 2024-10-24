@@ -1,5 +1,4 @@
 module.exports = `
-
 更改群组识别码或名称
 
 ## 补充说明
@@ -25,5 +24,4 @@ groupmod(选项)(参数)
 组名：指定要修改的工作的组名。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 用来改变文件属性
 
 ## 补充说明
@@ -51,5 +50,4 @@ chattr +a /data1/user_act.log
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

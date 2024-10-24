@@ -1,10 +1,9 @@
 module.exports = `
-
 激活Linux内核中指定文件系统的磁盘配额功能
 
 ## 补充说明
 
-**quotaon命令** 用于激活Linux内核中指定文件系统的磁盘配额功能。执行quotaon指令可开启用户和群组的才磅秒年空间限制，各分区的文件系统根目录必须有quota.user和quota.group配置文件。
+**quotaon命令** 执行quotaon指令可开启磁盘对用户和群组的空间使用限制，但在开启前，各分区的文件系统根目录必须存在通过quotacheck命令创建的quota配置文件。
 
 ###  语法
 
@@ -26,5 +25,5 @@ quotaon(选项)(参数)
 文件系统：指定要激活磁盘配额功能的文件系统。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

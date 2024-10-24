@@ -1,5 +1,4 @@
 module.exports = `
-
 创建磁盘分区上的“etc2/etc3”文件系统
 
 ## 补充说明
@@ -47,5 +46,4 @@ mke2fs -q /dev/hda1
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

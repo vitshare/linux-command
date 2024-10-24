@@ -1,5 +1,4 @@
 module.exports = `
-
 命令查找文件或目录
 
 ## 补充说明
@@ -42,5 +41,5 @@ $ slocate fdisk #显示文件名中含有fdisk 关键字的文件的路径信息
 /usr/share/doc/util-Linux/examples/sfdisk.examples.gz  
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

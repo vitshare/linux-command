@@ -1,5 +1,4 @@
 module.exports = `
-
 转换文件的编码方式
 
 ## 补充说明
@@ -42,5 +41,4 @@ iconv file1 -f EUC-JP-MS -t UTF-8 -o file2
 这里，没\`-o\`那么会输出到标准输出。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

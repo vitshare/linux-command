@@ -1,5 +1,4 @@
 module.exports = `
-
 Debian Linux中软件包的查询工具
 
 ## 补充说明
@@ -39,7 +38,7 @@ dpkg-query -S file1
 列出ubuntu下所安装软件列表：
 
 \`\`\`shell
-dpkg-query -W --showformat='\${Package} \${Version}\n' > filename
+dpkg-query -W --showformat='${Package} ${Version}\n' > filename
 \`\`\`
 
 查看软件包详细信息：
@@ -63,9 +62,8 @@ dpkg-query -l
 查看软件包的确切状态（是否安装）以及版本号：
 
 \`\`\`shell
-dpkg-query -W -f='\${Status} \${Version}\n' apache-perl
+dpkg-query -W -f='${Status} ${Version}\n' apache-perl
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

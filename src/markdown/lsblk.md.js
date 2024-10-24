@@ -1,5 +1,4 @@
 module.exports = `
-
 列出块设备信息
 
 ## 补充说明
@@ -95,5 +94,4 @@ lsblk -s
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

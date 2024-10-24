@@ -1,5 +1,4 @@
 module.exports = `
-
 用于显示elf格式文件的信息
 
 ## 补充说明
@@ -597,5 +596,4 @@ Key to Flags:
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

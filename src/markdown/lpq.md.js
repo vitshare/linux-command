@@ -1,5 +1,4 @@
 module.exports = `
-
 显示打印队列中的打印任务的状态信息
 
 ## 补充说明
@@ -25,5 +24,4 @@ lpq(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

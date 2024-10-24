@@ -1,5 +1,4 @@
 module.exports = `
-
 通用的系统资源统计工具
 
 ## 补充说明
@@ -129,5 +128,4 @@ internal:
 dstat命令的基本用法就说到这里，更多用法有待摸索，如果您需要补充内容请给我们发邮件，谢谢！
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

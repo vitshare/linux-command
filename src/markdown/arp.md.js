@@ -1,5 +1,4 @@
 module.exports = `
-
 arp 命令用于显示和修改 IP 到 MAC 转换表
 
 ## 补充说明

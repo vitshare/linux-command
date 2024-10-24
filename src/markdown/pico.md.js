@@ -1,5 +1,4 @@
 module.exports = `
-
 功能强大全屏幕的文本编辑器
 
 ## 补充说明
@@ -57,5 +56,4 @@ pico(选项)(参数)
 文件：指定要编辑的文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

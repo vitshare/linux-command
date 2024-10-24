@@ -1,5 +1,4 @@
 module.exports = `
-
 PF防火墙的配置命令
 
 ## 补充说明
@@ -64,5 +63,4 @@ pfctl -sa # 显示任何可显示的
 完整的命令列表，请参阅pfctl的man手册页。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

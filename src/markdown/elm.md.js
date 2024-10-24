@@ -1,5 +1,4 @@
 module.exports = `
-
 纯文本邮件客户端程序
 
 ## 补充说明
@@ -25,5 +24,4 @@ elm(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

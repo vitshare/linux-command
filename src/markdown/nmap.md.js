@@ -1,5 +1,4 @@
 module.exports = `
-
 网络探测和安全审核
 
 ## 补充说明
@@ -69,5 +68,5 @@ Nmap finished: 1 IP address (1 host up) scanned in 45.870 seconds
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

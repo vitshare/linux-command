@@ -1,5 +1,4 @@
 module.exports = `
-
 所进行的操作和dump指令相反
 
 ## 补充说明
@@ -51,5 +50,4 @@ restore ft /dev/hda3
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

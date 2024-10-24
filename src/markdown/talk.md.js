@@ -1,5 +1,4 @@
 module.exports = `
-
 让用户和其他用户聊天
 
 ## 补充说明
@@ -84,5 +83,4 @@ mesg n
 以上是linux中talk命令参数的是使用方法。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

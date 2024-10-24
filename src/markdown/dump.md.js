@@ -1,5 +1,4 @@
 module.exports = `
-
 用于备份ext2或者ext3文件系统
 
 ## 补充说明
@@ -51,5 +50,4 @@ dump -1u -f /tmp/homeback.bak /home
 通过dump命令的备份层级，可实现完整+增量备份、完整+差异备份，在配合crontab可以实现无人值守备份。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

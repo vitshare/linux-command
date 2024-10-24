@@ -1,5 +1,4 @@
 module.exports = `
-
 用来关闭用户的投影密码
 
 ## 补充说明
@@ -24,5 +23,4 @@ ls: cannot access /etc/shadow: No such file or directory
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

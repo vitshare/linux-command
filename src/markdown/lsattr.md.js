@@ -1,5 +1,4 @@
 module.exports = `
-
 查看文件的第二扩展文件系统属性
 
 ## 补充说明
@@ -36,5 +35,4 @@ lsattr -EO -l rmt0
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

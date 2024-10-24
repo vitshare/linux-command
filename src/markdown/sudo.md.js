@@ -1,5 +1,4 @@
 module.exports = `
-
 以其他身份来执行命令
 
 ## 补充说明
@@ -16,6 +15,7 @@ sudo(选项)(参数)
 
 \`\`\`shell
 -b：在后台执行指令；
+-E：继承当前环境变量
 -h：显示帮助；
 -H：将HOME环境变量设为新身份的HOME环境变量；
 -k：结束密码的有效期限，也就是下次再执行sudo时便需要输入密码；。
@@ -191,5 +191,5 @@ PWD=/home/foobar ; USER=root ; COMMAND=/bin/cat /etc/shadow
 sudo 有自己的方式来保护安全。以root的身份执行\`sudo-V\`，查看一下sudo的设置。因为考虑到安全问题，一部分环境变量并没有传递给sudo后面的命令，或者被检查后再传递的，比如：PATH，HOME，SHELL等。当然，你也可以通过sudoers来配置这些环境变量。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

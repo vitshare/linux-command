@@ -1,5 +1,4 @@
 module.exports = `
-
 显示当前SELinux的应用模式，是强制、执行还是停用
 
 ## 补充说明
@@ -21,5 +20,5 @@ getenforce
 Enforcing
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

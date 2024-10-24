@@ -1,5 +1,4 @@
 module.exports = `
-
 用于调整 RTC 时间
 
 ## 补充说明
@@ -45,5 +44,5 @@ clock -utc #显示UTC时间
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

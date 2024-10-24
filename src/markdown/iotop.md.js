@@ -1,5 +1,4 @@
 module.exports = `
-
 用来监视磁盘I/O使用状况的工具
 
 ## 补充说明
@@ -79,5 +78,4 @@ Total DISK read:       0.00 B/s | Total DISK write:       0.00 B/s
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

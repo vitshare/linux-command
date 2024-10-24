@@ -1,5 +1,4 @@
 module.exports = `
-
 Linux系统下光盘刻录功能命令
 
 ## 补充说明
@@ -58,5 +57,4 @@ cdrecord --dev=0,3,0 --blank=fast
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

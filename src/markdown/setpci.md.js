@@ -1,5 +1,4 @@
 module.exports = `
-
 查询和配置PCI设备的使用工具
 
 ## 补充说明
@@ -66,5 +65,4 @@ sudo setpci -s 00:02.0 F4.B=CC
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

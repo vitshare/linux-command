@@ -1,5 +1,4 @@
 module.exports = `
-
 向卷组中添加物理卷
 
 ## 补充说明
@@ -39,5 +38,4 @@ Volume group "vg2000" successfully extended
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

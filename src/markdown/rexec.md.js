@@ -1,6 +1,5 @@
 module.exports = `
-
-运程执行Linux系统下命令 
+远程执行Linux系统下命令
 
 ## 补充说明
 
@@ -57,5 +56,5 @@ rexec host1 ls -l /home/karen
 如果没有远程主机的\`$HOME/.netrc\`文件中的有效项，将提示您输入登录标识和密码。输入要求的登录信息后，在远程主机host1上的karen用户的目录列表显示在本地系统上。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

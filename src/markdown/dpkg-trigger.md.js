@@ -1,5 +1,4 @@
 module.exports = `
-
 Debian Linux下的软件包触发器
 
 ## 补充说明
@@ -27,5 +26,4 @@ dpkg-trigger(选项)(参数)
 触发器名：指定触发器名称。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

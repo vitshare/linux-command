@@ -1,5 +1,4 @@
 module.exports = `
-
 监听网络上ARP的记录
 
 ## 补充说明
@@ -22,5 +21,4 @@ arpwatch(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 配置和显示Linux系统网卡的网络参数
 
 ## 补充说明
@@ -124,5 +123,5 @@ ifconfig eth0  #显示eth0的网卡信息
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

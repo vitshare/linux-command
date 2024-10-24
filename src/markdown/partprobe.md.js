@@ -1,5 +1,4 @@
 module.exports = `
-
 不重启的情况下重读分区
 
 ## 补充说明
@@ -153,5 +152,4 @@ tmpfs                  2023936         0   2023936   0% /dev/shm
 使用partprobe可以不用重启系统即可配合fdisk工具创建新的分区。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

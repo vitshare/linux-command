@@ -1,5 +1,4 @@
 module.exports = `
-
 init进程是所有Linux进程的父进程
 
 ## 补充说明
@@ -46,5 +45,4 @@ init(选项)(参数)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

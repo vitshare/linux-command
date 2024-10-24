@@ -1,5 +1,4 @@
 module.exports = `
-
 Debian Linux中覆盖文件的所有权和模式
 
 ## 补充说明
@@ -42,5 +41,4 @@ sudo dpkg-statoverride --remove /usr/bin/wall
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
-`;    
+`;

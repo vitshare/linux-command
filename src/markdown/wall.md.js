@@ -1,5 +1,4 @@
 module.exports = `
-
 向系统当前所有打开的终端上输出信息
 
 ## 补充说明
@@ -27,5 +26,4 @@ this is a test line
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

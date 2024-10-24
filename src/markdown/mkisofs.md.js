@@ -1,5 +1,4 @@
 module.exports = `
-
 建立ISO 9660映像文件
 
 ## 补充说明
@@ -97,5 +96,4 @@ mkisofs -R -J -T -v -no-emul-boot -boot-load-size 4 -boot-info-table -V RHEL4ASD
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

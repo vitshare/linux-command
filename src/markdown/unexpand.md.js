@@ -1,5 +1,4 @@
 module.exports = `
-
 将文件的空白字符转换为制表符
 
 ## 补充说明
@@ -25,5 +24,4 @@ unexpand(选项)(参数)
 文件：指定要转换空白为TAB的文件列表。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

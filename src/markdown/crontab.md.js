@@ -1,5 +1,4 @@
 module.exports = `
-
 提交和管理用户的需要周期性执行的任务
 
 ## 补充说明
@@ -175,13 +174,13 @@ chkconfig –level 35 crond on
 每一小时重启smb 
 
 \`\`\`shell
-* */1 * * * /etc/init.d/smb restart
+0 */1 * * * /etc/init.d/smb restart
 \`\`\`
 
 晚上11点到早上7点之间，每隔一小时重启smb
 
 \`\`\`shell
-* 23-7/1 * * * /etc/init.d/smb restart
+0 23-7/1 * * * /etc/init.d/smb restart
 \`\`\`
 
 每月的4号与每周一到周三的11点重启smb 
@@ -203,5 +202,4 @@ chkconfig –level 35 crond on
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

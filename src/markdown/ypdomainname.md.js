@@ -1,5 +1,4 @@
 module.exports = `
-
 显示主机的NIS的域名
 
 ## 补充说明
@@ -19,5 +18,4 @@ ypdomainname(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

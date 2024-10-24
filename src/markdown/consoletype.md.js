@@ -1,5 +1,4 @@
 module.exports = `
-
 输出已连接的终端类型
 
 ## 补充说明
@@ -20,5 +19,4 @@ pty
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

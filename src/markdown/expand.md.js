@@ -1,5 +1,4 @@
 module.exports = `
-
 将文件的制表符转换为空白字符
 
 ## 补充说明
@@ -23,5 +22,4 @@ expand(选项)(参数)
 文件：指定要转换制表符为空白的文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

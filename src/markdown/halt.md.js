@@ -1,5 +1,4 @@
 module.exports = `
-
 关闭正在运行的Linux操作系统
 
 ## 补充说明
@@ -31,5 +30,4 @@ halt -d     # 关闭系统，但不留下纪录。
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

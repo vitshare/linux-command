@@ -1,5 +1,4 @@
 module.exports = `
-
 创建RPM的二进制软件包和源码软件包
 
 ## 补充说明
@@ -31,5 +30,4 @@ rpmbuild -ba 'spec文件路径'
 build完后，可以在\`/usr/src/redhat/RPMS/\`下找到二进制rpm包，rpm包按照其对应的cpu体系结构分类，通常在\`/usr/src/redhat/RPMS/i386\`目录下。\`/usr/src/redhat/SRPMS/\`下找到源码rpm包，此时由于是源代码，所以无须按体系结构分类。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 重新启动正在运行的Linux操作系统
 
 ## 补充说明
@@ -30,5 +29,4 @@ reboot -w     //做个重开机的模拟（只有纪录并不会真的重开机�
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

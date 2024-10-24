@@ -1,5 +1,4 @@
 module.exports = `
-
 保存ip6tables表配置
 
 ## 补充说明
@@ -20,5 +19,4 @@ ip6tables-save(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

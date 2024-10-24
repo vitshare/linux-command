@@ -1,5 +1,4 @@
 module.exports = `
-
 显示文件中以指定字符串开头的任意行
 
 ## 补充说明
@@ -27,5 +26,4 @@ look(选项)(参数)
 *   文件：指定要查找的目标文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

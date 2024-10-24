@@ -1,5 +1,4 @@
 module.exports = `
-
 显示系统中所有用户最近一次登录信息
 
 ## 补充说明
@@ -55,5 +54,4 @@ mysql                                       **Never logged in**
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

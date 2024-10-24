@@ -1,5 +1,4 @@
 module.exports = `
-
 使用RPM软件包的签名管理工具
 
 ## 补充说明
@@ -25,5 +24,4 @@ rpmsign(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

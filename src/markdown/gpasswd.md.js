@@ -1,5 +1,4 @@
 module.exports = `
-
 Linux下工作组文件的管理工具
 
 ## 补充说明
@@ -59,5 +58,4 @@ gpasswd -a user_name group_name
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

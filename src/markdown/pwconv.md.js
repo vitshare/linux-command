@@ -1,5 +1,4 @@
 module.exports = `
-
 用来开启用户的投影密码
 
 ## 补充说明
@@ -27,5 +26,4 @@ test:$6$nYOEWamm$bz07nlv/.RgJufb3FAqJJeULfwybzgxmrWqbk7O4vI0KsT6N.ujrh6dDIUcAJdf
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

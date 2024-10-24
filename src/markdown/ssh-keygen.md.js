@@ -1,5 +1,4 @@
 module.exports = `
-
 为ssh生成、管理和转换认证密钥
 
 ## 补充说明
@@ -25,8 +24,7 @@ ssh-keygen(选项)
 -P：提供（旧）密语；
 -q：静默模式；
 -t：指定要创建的密钥类型。
+-y: 读取私钥输出公钥。
 \`\`\`
 
-
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

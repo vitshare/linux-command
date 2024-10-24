@@ -1,5 +1,4 @@
 module.exports = `
-
 显示到达的邮件状态
 
 ## 补充说明
@@ -28,5 +27,4 @@ mailstat(选项)(参数)
 邮件日志文件：指定要读取邮件日志文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 关闭指定的交换空间
 
 ## 补充说明
@@ -31,5 +30,4 @@ swapoff /dev/sda2
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

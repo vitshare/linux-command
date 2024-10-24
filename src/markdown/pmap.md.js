@@ -1,5 +1,4 @@
 module.exports = `
-
 报告进程的内存映射关系
 
 ## 补充说明
@@ -120,5 +119,4 @@ total kB           72880   22940   22000
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

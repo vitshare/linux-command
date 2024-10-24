@@ -1,5 +1,4 @@
 module.exports = `
-
 把专用密钥添加到ssh-agent的高速缓存中
 
 ## 补充说明
@@ -49,5 +48,4 @@ ssh-add -l
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

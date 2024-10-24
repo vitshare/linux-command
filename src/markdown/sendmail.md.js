@@ -1,5 +1,4 @@
 module.exports = `
-
 著名电子邮件服务器
 
 ## 补充说明
@@ -29,5 +28,4 @@ sendmail(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

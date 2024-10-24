@@ -1,5 +1,4 @@
 module.exports = `
-
 从RPM数据库中查询软件包信息
 
 ## 补充说明
@@ -32,5 +31,4 @@ httpd-2.2.3-81.el5.centos
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

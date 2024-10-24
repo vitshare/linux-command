@@ -1,5 +1,4 @@
 module.exports = `
-
 POSIX 平台开发具有高压缩率的工具
 
 ## 补充说明

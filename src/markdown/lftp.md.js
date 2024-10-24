@@ -1,5 +1,4 @@
 module.exports = `
-
 优秀的文件客户端程序
 
 ## 补充说明
@@ -115,5 +114,4 @@ set pget:default-n 5
 这样，就不用每次进入都要打命令了。其他的set可以自己tab然后help来看。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

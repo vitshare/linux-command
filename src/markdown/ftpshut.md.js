@@ -1,5 +1,4 @@
 module.exports = `
-
 在指定的时间关闭FTP服务器
 
 ## 补充说明
@@ -20,5 +19,4 @@ ftpshut [-d<分钟>][-l<分钟>][关闭时间]["警告信息"]
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

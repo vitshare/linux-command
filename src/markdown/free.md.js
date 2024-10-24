@@ -1,5 +1,4 @@
 module.exports = `
-
 显示内存的使用情况
 
 ## 补充说明
@@ -155,5 +154,5 @@ Buffer cache是针对磁盘块的缓存，也就是在没有文件系统的情�
 如果是应用服务器的话，一般只看第二行，+buffers/cache,即对应用程序来说free的内存太少了，也是该考虑优化程序或加内存了。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 查看块设备的文件系统类型、LABEL、UUID等信息
 
 ## 补充说明
@@ -92,5 +91,4 @@ sudo blkid -o list
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

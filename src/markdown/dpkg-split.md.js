@@ -1,5 +1,4 @@
 module.exports = `
-
 Debian Linux中将大软件包分割成小包
 
 ## 补充说明
@@ -42,5 +41,4 @@ dpkg-split -j "foo*"
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
-`;    
+`;

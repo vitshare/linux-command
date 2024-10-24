@@ -1,5 +1,4 @@
 module.exports = `
-
 samba用户和密码管理工具
 
 ## 补充说明
@@ -28,5 +27,4 @@ smbpasswd(选项)(参数)
 用户名：指定要修改SMB密码的用户。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

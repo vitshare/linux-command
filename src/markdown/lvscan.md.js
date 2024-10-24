@@ -1,5 +1,4 @@
 module.exports = `
-
 扫描逻辑卷
 
 ## 补充说明
@@ -33,5 +32,4 @@ ACTIVE          '/dev/vg1000/lvol0' [200.00 MB] inherit
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

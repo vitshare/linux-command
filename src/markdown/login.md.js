@@ -1,5 +1,4 @@
 module.exports = `
-
 登录系统或切换用户身份
 
 ## 补充说明
@@ -24,5 +23,4 @@ login(选项)(参数)
 用户名：指定登录使用的用户名。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

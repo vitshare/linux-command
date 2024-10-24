@@ -1,5 +1,4 @@
 module.exports = `
-
 读取文件后优化处理并输出
 
 ## 补充说明
@@ -28,5 +27,4 @@ fmt(选项)(参数)
 指定要优化格式的文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

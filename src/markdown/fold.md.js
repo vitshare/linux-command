@@ -1,5 +1,4 @@
 module.exports = `
-
 控制文件内容输出时所占用的屏幕宽度
 
 ## 补充说明
@@ -24,6 +23,11 @@ fold(选项)(参数)
 
 文件：指定要显示内容的文件。
 
+###  示例
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+\`\`\`shell
+fold -w 5 filename
+\`\`\`
+
+
 `;

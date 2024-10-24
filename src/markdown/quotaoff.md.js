@@ -1,5 +1,4 @@
 module.exports = `
-
 关闭Linux内核中指定文件系统的磁盘配额功能
 
 ## 补充说明
@@ -26,5 +25,4 @@ quotaoff(选项)(参数)
 文件系统：指定要关闭磁盘配额功能的文件系统。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

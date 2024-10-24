@@ -1,5 +1,4 @@
 module.exports = `
-
 squid服务器守护进程
 
 ## 补充说明
@@ -27,5 +26,4 @@ squid(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 用于连接另一个系统主机
 
 ## 补充说明
@@ -47,5 +46,5 @@ cu -s 38400 9=12015551234
 
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 查找二进制程序、代码等相关文件路径
 
 ## 补充说明
@@ -63,5 +62,4 @@ svn:
 说明：\`whereis -m svn\`查出说明文档路径，\`whereis -s svn\`找source源文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

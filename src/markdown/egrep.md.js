@@ -1,5 +1,4 @@
 module.exports = `
-
 在文件内查找指定的字符串
 
 ## 补充说明
@@ -39,6 +38,9 @@ testfile_2:Linux is a free unix-type opterating system
 testfile_2:Linux test
 \`\`\`
 
+过滤注释行和空白行
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+\`\`\`shell
+egrep -v '^\s*(#|$)' filename
+\`\`\`
 `;

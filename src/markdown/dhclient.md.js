@@ -1,5 +1,4 @@
 module.exports = `
-
 动态获取或释放IP地址
 
 ## 补充说明
@@ -33,5 +32,4 @@ dhclient        #获取IP
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

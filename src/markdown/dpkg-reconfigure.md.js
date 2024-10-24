@@ -1,5 +1,4 @@
 module.exports = `
-
 Debian Linux中重新配制一个已经安装的软件包
 
 ## 补充说明
@@ -40,5 +39,4 @@ sudo dpkg-reconfigure locales
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

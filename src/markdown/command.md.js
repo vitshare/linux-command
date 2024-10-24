@@ -1,5 +1,4 @@
 module.exports = `
-
 调用并执行指定的命令
 
 ## 补充说明
@@ -31,5 +30,4 @@ Linux
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

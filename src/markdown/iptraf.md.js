@@ -1,5 +1,4 @@
 module.exports = `
-
 实时地监视网卡流量
 
 ## 补充说明
@@ -28,5 +27,4 @@ iptraf(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

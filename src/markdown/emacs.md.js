@@ -1,5 +1,4 @@
 module.exports = `
-
 功能强大的全屏文本编辑器
 
 ## 补充说明
@@ -157,5 +156,4 @@ C-x C-q : 修改buffer的只读属性
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

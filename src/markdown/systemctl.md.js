@@ -1,5 +1,4 @@
 module.exports = `
-
 系统服务管理器指令
 
 ## 补充说明
@@ -12,16 +11,19 @@ module.exports = `
 | 使某服务不自动启动 | chkconfig --level 3 httpd off | systemctl disable httpd.service |
 | 检查服务状态 | service httpd status | systemctl status httpd.service （服务详细信息） systemctl is-active httpd.service （仅显示是否 Active) |
 | 显示所有已启动的服务 | chkconfig --list | systemctl list-units --type=service |
-| 启动某服务 | service httpd start | systemctl start httpd.service |
-| 停止某服务 | service httpd stop | systemctl stop httpd.service |
-| 重启某服务 | service httpd restart | systemctl restart httpd.service |
+| 启动服务 | service httpd start | systemctl start httpd.service |
+| 停止服务 | service httpd stop | systemctl stop httpd.service |
+| 重启服务 | service httpd restart | systemctl restart httpd.service |
+| 重载服务 | service httpd reload | systemctl reload httpd.service |
 
 ### 实例
 
 \`\`\`shell
 systemctl start nfs-server.service . # 启动nfs服务
 systemctl enable nfs-server.service # 设置开机自启动
+systemctl enable nfs-server.service --now # 设置开机自启动，并立刻启动
 systemctl disable nfs-server.service # 停止开机自启动
+systemctl disable nfs-server.service --now # 停止开机自启动，并立刻停止
 systemctl status nfs-server.service # 查看服务当前状态
 systemctl restart nfs-server.service # 重新启动某服务
 systemctl list-units --type=service # 查看所有已启动的服务
@@ -48,5 +50,5 @@ sudo systemctl disable firewalld.service
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

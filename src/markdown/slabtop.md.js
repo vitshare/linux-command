@@ -1,5 +1,4 @@
 module.exports = `
-
 实时显示内核slab内存缓存信息
 
 ## 补充说明
@@ -90,5 +89,4 @@ slabtop
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

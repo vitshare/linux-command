@@ -1,5 +1,4 @@
 module.exports = `
-
 使用正则表达式搜索.bz2压缩包中文件
 
 ## 补充说明
@@ -18,5 +17,4 @@ bzgrep(参数)
 *   .bz2文件：指定要搜索的.bz2压缩包。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

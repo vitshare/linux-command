@@ -1,5 +1,4 @@
 module.exports = `
-
 显示二进制目标文件的符号表
 
 ## 补充说明
@@ -26,5 +25,4 @@ nm(选项)(参数)
 目标文件：二进制目标文件，通常是库文件和可执行文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

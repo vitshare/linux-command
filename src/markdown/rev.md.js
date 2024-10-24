@@ -1,5 +1,4 @@
 module.exports = `
-
 将文件内容以字符为单位反序输出
 
 ## 补充说明
@@ -51,5 +50,4 @@ TIMMOC
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

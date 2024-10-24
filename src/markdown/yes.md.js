@@ -1,5 +1,4 @@
 module.exports = `
-
 重复打印指定字符串
 
 ## 补充说明
@@ -33,5 +32,4 @@ testline
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

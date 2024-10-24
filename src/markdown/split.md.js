@@ -1,5 +1,4 @@
 module.exports = `
-
 分割任意大小的文件
 
 ## 补充说明
@@ -12,7 +11,7 @@ module.exports = `
 -b：值为每一输出档案的大小，单位为 byte。
 -C：每一输出档中，单行的最大 byte 数。
 -d：使用数字作为后缀。
--l：值为每一输出档的列数大小。
+-l：值为每一输出档的行数大小。
 -a：指定后缀长度(默认为2)。
 \`\`\`
 
@@ -58,5 +57,5 @@ split -l 10 date.file
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

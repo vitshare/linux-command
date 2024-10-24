@@ -1,5 +1,4 @@
 module.exports = `
-
 将文件发送给指定打印机进行打印
 
 ## 补充说明
@@ -39,5 +38,4 @@ lpr -P lp man1 man2
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

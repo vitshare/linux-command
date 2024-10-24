@@ -1,5 +1,4 @@
 module.exports = `
-
 激活指定的网络接口
 
 ## 补充说明
@@ -23,5 +22,4 @@ ifup eth0   #激活eth0
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

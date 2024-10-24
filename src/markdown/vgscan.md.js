@@ -1,5 +1,4 @@
 module.exports = `
-
 扫描并显示系统中的卷组
 
 ## 补充说明
@@ -37,5 +36,4 @@ Found volume group "vg1000" using metadata type lvm2
 说明：本例中，vgscan指令找到了两个LVM2卷组"vg1000"和"vg2000"。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

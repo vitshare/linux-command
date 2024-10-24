@@ -1,5 +1,4 @@
 module.exports = `
-
 磁盘分区和分区大小调整工具
 
 ## 补充说明
@@ -8,13 +7,13 @@ module.exports = `
 
 ###  语法
 
-\`\`\`shellshell
+\`\`\`shell
 parted(选项)(参数)
 \`\`\`
 
 ###  选项
 
-\`\`\`shellshell
+\`\`\`shell
 -h：显示帮助信息；
 -i：交互式模式；
 -s：脚本模式，不提示用户；
@@ -134,5 +133,4 @@ none                  252M     0  252M   0% /dev/shm
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

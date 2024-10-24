@@ -1,5 +1,4 @@
 module.exports = `
-
 用来列出压缩文件信息
 
 ## 补充说明
@@ -34,5 +33,4 @@ zipinfo(选项)(参数)
 文件：指定zip格式的压缩包。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

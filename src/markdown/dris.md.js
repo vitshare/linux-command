@@ -1,5 +1,4 @@
 module.exports = `
-
 显示和清空目录堆栈中的内容
 
 ## 补充说明
@@ -21,5 +20,4 @@ dris(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

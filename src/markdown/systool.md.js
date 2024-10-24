@@ -1,5 +1,4 @@
 module.exports = `
-
 显示基于总线、类和拓扑显示系统中设备的信息
 
 ## 补充说明
@@ -201,5 +200,4 @@ Supported sysfs modules:
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

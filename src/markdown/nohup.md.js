@@ -1,5 +1,4 @@
 module.exports = `
-
 将程序以忽略挂起信号的方式运行起来
 
 ## 补充说明
@@ -46,5 +45,5 @@ nohup wget site.com/file.zip
 nohup ping -c 10 baidu.com
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

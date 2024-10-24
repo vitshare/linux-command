@@ -1,5 +1,4 @@
 module.exports = `
-
 命令处理传送进来的文件
 
 ## 补充说明
@@ -32,5 +31,4 @@ uupick-s localhost
 该命令通常没有输出。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 用来开启群组的投影密码
 
 ## 补充说明
@@ -36,5 +35,4 @@ cdy:123456::      # 已经移到影子文件了
 注：gshadow, shadow只有root权限才可以查看。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 管理ARP包过滤规则表
 
 ## 补充说明
@@ -31,5 +30,4 @@ arptables(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

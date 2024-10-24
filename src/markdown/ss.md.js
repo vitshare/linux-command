@@ -1,5 +1,4 @@
 module.exports = `
-
 比 netstat 好用的socket统计信息，iproute2 包附带的另一个工具，允许你查询 socket 的有关统计信息
 
 ## 补充说明
@@ -192,17 +191,24 @@ UNCONN      0      0                                              127.0.0.1:ntp 
 UNCONN      0      0                                                      *:ntp                                                     *:*
 \`\`\`
 
-#### 出所有端口为 22（ssh）的连接
+**出所有端口为 22（ssh）的连接**
 
 \`\`\`shell
-ss state all sport = :ssh
-
+[root@localhost ~]# ss state all sport = :ssh
 Netid State      Recv-Q Send-Q     Local Address:Port                      Peer Address:Port
 tcp   LISTEN     0      128                    *:ssh                                  *:*
 tcp   ESTAB      0      0          192.168.0.136:ssh                      192.168.0.102:46540
 tcp   LISTEN     0      128                   :::ssh                                 :::*
 \`\`\`
 
+**查看TCP的连接状态**
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+\`\`\`shell
+[root@localhost ~]# ss  -tan|awk 'NR>1{++S[$1]}END{for (a in S) print a,S[a]}'
+LISTEN 7
+ESTAB 31
+TIME-WAIT 28
+\`\`\`
+
+
 `;

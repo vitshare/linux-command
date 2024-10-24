@@ -1,5 +1,4 @@
 module.exports = `
-
 用来改变finger命令显示的信息
 
 ## 补充说明
@@ -63,5 +62,4 @@ Home Phone[]: [del]
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 openssh软件套件中的服务器守护进程
 
 ## 补充说明
@@ -30,5 +29,4 @@ sshd(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

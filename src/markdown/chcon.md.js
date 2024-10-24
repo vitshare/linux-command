@@ -1,5 +1,4 @@
 module.exports = `
-
 修改对象（文件）的安全上下文
 
 ## 补充说明
@@ -71,5 +70,4 @@ chcon -t public_content_t /directories
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

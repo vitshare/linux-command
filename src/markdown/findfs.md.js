@@ -1,5 +1,4 @@
 module.exports = `
-
 标签或UUID查找文件系统
 
 ## 补充说明
@@ -26,5 +25,4 @@ findfs LABEL=/boot
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

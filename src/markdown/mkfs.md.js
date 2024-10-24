@@ -1,5 +1,4 @@
 module.exports = `
-
 用于在设备上创建Linux文件系统
 
 ## 补充说明
@@ -39,5 +38,4 @@ mkfs -t ext2 /dev/sda7     //将sda7分区格式化为ext2格式
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 退出当前登录的Shell
 
 ## 补充说明
@@ -13,5 +12,4 @@ logout
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

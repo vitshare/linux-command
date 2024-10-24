@@ -1,5 +1,4 @@
 module.exports = `
-
 方便的数据包匹配和显示工具
 
 ## 补充说明
@@ -135,5 +134,4 @@ yi7E53UBOcv4V.
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

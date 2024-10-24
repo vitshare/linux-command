@@ -1,5 +1,4 @@
 module.exports = `
-
 列出目前与过去登入系统的用户相关信息
 
 ## 补充说明
@@ -47,5 +46,4 @@ root     pts/0        221.6.45.34      Mon Dec  9 09:38 - 11:41  (02:02)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

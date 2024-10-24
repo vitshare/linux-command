@@ -1,5 +1,4 @@
 module.exports = `
-
 用于卸载已经加载的文件系统
 
 ## 补充说明
@@ -76,5 +75,4 @@ eject /dev/cdrom      卸载并弹出CD
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

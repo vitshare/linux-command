@@ -1,5 +1,4 @@
 module.exports = `
-
 MySQL服务器管理客户端
 
 ## 补充说明
@@ -48,5 +47,4 @@ version：得到服务器的版本信息。
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

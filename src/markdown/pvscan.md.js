@@ -1,5 +1,4 @@
 module.exports = `
-
 扫描系统中所有硬盘的物理卷列表
 
 ## 补充说明
@@ -42,5 +41,4 @@ MB]
 说明：本例中，输出了两个物理卷，它们不属于任何卷组，是可被利用的物理卷。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 从运行的内核中移除指定的内核模块
 
 ## 补充说明
@@ -38,5 +37,4 @@ raid1                  25153  0
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

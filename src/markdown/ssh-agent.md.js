@@ -1,5 +1,4 @@
 module.exports = `
-
 ssh密钥管理器
 
 ## 补充说明
@@ -37,5 +36,4 @@ ssh-agent
 运行ssh-agent，它会打印出来它使用的环境和变量。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

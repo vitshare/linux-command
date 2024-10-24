@@ -1,5 +1,4 @@
 module.exports = `
-
 主要用于编辑代码的编辑器
 
 ## 补充说明
@@ -66,5 +65,4 @@ unset_setkey ("@\emy", "\ey");
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

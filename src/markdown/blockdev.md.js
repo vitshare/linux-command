@@ -1,5 +1,4 @@
 module.exports = `
-
 从命令行调用区块设备控制程序
 
 ## 补充说明
@@ -51,5 +50,4 @@ blockdev --setrw /dev/hda4
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

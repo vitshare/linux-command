@@ -1,5 +1,4 @@
 module.exports = `
-
 用于创建LVM的逻辑卷
 
 ## 补充说明
@@ -15,6 +14,7 @@ lvcreate(选项)(参数)
 ###  选项
 
 \`\`\`shell
+-n: 指定逻辑卷的名称
 -L：指定逻辑卷的大小，单位为“kKmMgGtT”字节；
 -l：指定逻辑卷的大小（LE数）。
 \`\`\`
@@ -28,7 +28,7 @@ lvcreate(选项)(参数)
 使用lvcreate命令在卷组"vg1000"上创建一个200MB的逻辑卷。在命令行中输入下面的命令：
 
 \`\`\`shell
-[root@localhost ~]# lvcreate -L 200M vg1000    #创建大小为200M的逻辑卷
+[root@localhost ~]# lvcreate -L 200M -n lvol0 vg1000    #创建大小为200M的逻辑卷
 \`\`\`
 
 输出信息如下：
@@ -40,5 +40,4 @@ Logical volume "lvol0" created
 说明：创建成功后，新的逻辑卷"lvol0"，将通过设备文件\`/dev/vg1000/lvol0\`进行访问。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

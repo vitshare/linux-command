@@ -1,5 +1,4 @@
 module.exports = `
-
 安装或升级软件或备份数据
 
 ## 补充说明
@@ -77,5 +76,4 @@ install a/* d
 其中d是目录。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

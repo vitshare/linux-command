@@ -1,5 +1,4 @@
 module.exports = `
-
 查询SElinux策略内各项规则的布尔值
 
 ## 补充说明
@@ -39,5 +38,4 @@ setsebool -P httpd_enable_homedirs=0    # 0是关闭  1是开启
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

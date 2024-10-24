@@ -1,5 +1,4 @@
 module.exports = `
-
 用于创建LVM卷组
 
 ## 补充说明
@@ -40,5 +39,4 @@ Volume group "vg1000" successfully created
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

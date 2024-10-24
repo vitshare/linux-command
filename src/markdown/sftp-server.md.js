@@ -1,5 +1,4 @@
 module.exports = `
-
 sftp协议的服务器端程序
 
 ## 补充说明
@@ -13,5 +12,4 @@ sftp-server
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

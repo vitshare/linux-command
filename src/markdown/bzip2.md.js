@@ -1,5 +1,4 @@
 module.exports = `
-
 将文件压缩成bz2格式
 
 ## 补充说明
@@ -12,7 +11,7 @@ bzip2 采用 Burrows-Wheeler 块排序文本压缩算法和 Huffman 编码方式
 
 bzip2 从命令行读入文件名和参数。 每个文件被名为 "原始文件名.bz2" 的压缩文件替换。 每个压缩文件具有与原文件相同的修改时间、 权限， 如果可能的话，还具有相同的属主， 因此在解压缩时这些特性将正确地恢复。 在某些文件系统中， 没有权限、 属主或时间的概念， 或者对文件名的长度有严格限制， 例如 MSDOS，在这种情况下，bzip2 没有保持原文件名、 属主、 权限以及时间的机制， 从这个意义上说，bzip2 对文件名的处理是幼稚的。
 
-bzip2 和 bunzip2 在缺省情况下不覆盖已有的文件。 如果想覆盖已有的文件，要指定  选项。
+bzip2 和 bunzip2 在缺省情况下不覆盖已有的文件。 如果想覆盖已有的文件，要指定 -f 选项。
 
 如果未指定文件名， bzip2 将压缩来自标准输入的数据并写往标准输出。在这种情况下， bzip2 会拒绝将压缩结果写往终端，因为这完全无法理解并且是没有意义的。
 
@@ -168,7 +167,7 @@ hahahhaahahha
 \`\`\`shell
 bzip2 -c filename
 bzip2: I won't write compressed data to a terminal.
-bzip2: For help, type: \`bzip2 --help\'.
+bzip2: For help, type: \`bzip2 --help'.
 \`\`\`
 
 这里，使用\`-c\`指定压缩到标准输出不删除原有文件，不同的是，压缩后的文件无法输出到标准输出。
@@ -182,5 +181,5 @@ bzip2 -- -myfilename
 这里主要是为了防止文件名中\`-\`产生以为是选项的歧义。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

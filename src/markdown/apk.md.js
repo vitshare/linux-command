@@ -1,5 +1,4 @@
 module.exports = `
-
 Alpine Linux 下的包管理工具
 
 ## 使用实例

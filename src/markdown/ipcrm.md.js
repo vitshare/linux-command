@@ -1,5 +1,4 @@
 module.exports = `
-
 删除消息队列、信号集、或者共享内存标识
 
 ## 补充说明
@@ -34,5 +33,4 @@ ipcrm -m 18602
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

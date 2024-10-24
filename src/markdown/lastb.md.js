@@ -1,5 +1,4 @@
 module.exports = `
-
 列出登入系统失败的用户相关信息
 
 ## 补充说明
@@ -60,5 +59,4 @@ admin    ssh:notty    129.171.193.99   Mon Dec 16 16:52 - 16:52  (00:00)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

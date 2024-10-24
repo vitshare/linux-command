@@ -1,5 +1,4 @@
 module.exports = `
-
 PHP语言的命令行接口
 
 ## 补充说明
@@ -24,5 +23,4 @@ php(选项)(参数)
 文件：要执行的php脚本。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

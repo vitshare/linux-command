@@ -1,5 +1,4 @@
 module.exports = `
-
 收集免费ARP信息
 
 ## 补充说明
@@ -42,5 +41,4 @@ arpd -l -b /var/tmp/arpd.db
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

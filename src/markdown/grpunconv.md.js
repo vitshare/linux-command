@@ -1,5 +1,4 @@
 module.exports = `
-
 用来关闭群组的投影密码
 
 ## 补充说明
@@ -36,5 +35,4 @@ cdy:123456:1000:
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

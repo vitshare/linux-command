@@ -1,5 +1,4 @@
 module.exports = `
-
 被允许时操作指定的网络接口
 
 ## 补充说明
@@ -20,5 +19,4 @@ usernetctl(参数)
 *   report：报告网络接口状态。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

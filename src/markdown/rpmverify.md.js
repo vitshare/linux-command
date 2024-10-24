@@ -1,5 +1,4 @@
 module.exports = `
-
 验证已安装的RPM软件包的正确性
 
 ## 补充说明
@@ -21,5 +20,4 @@ rpmverify(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

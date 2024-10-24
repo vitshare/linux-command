@@ -1,5 +1,4 @@
 module.exports = `
-
 显示和编辑被用于连接X服务器的认证信息
 
 ## 补充说明
@@ -37,5 +36,4 @@ xauth(选项)(参数)
 *   source：从指定文件读取包含xauth的内容指令。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

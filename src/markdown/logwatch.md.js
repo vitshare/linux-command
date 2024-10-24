@@ -1,5 +1,4 @@
 module.exports = `
-
 可定制和可插入式的日志监视系统
 
 ## 补充说明
@@ -67,5 +66,4 @@ logwatch --service sshd --detail High                       只看sshd的日志�
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 在对象文件或二进制文件中查找可打印的字符串
 
 ## 补充说明
@@ -47,5 +46,4 @@ strings /bin/ls | grep -i libc
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

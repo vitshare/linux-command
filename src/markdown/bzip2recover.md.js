@@ -1,5 +1,4 @@
 module.exports = `
-
 恢复被破坏的.bz2压缩包中的文件
 
 ## 补充说明
@@ -19,5 +18,4 @@ bzip2recover(参数)
 文件：指定要恢复数据的.bz2压缩包。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

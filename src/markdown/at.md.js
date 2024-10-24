@@ -1,5 +1,4 @@
 module.exports = `
-
 在指定时间执行一个任务
 
 ## 补充说明
@@ -80,5 +79,5 @@ date >/root/2013.log
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

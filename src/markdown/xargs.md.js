@@ -1,5 +1,4 @@
 module.exports = `
-
 给其他命令传递参数的一个过滤器
 
 ## 补充说明
@@ -101,7 +100,7 @@ cat arg.txt | xargs -I {} ./sk.sh -p {} -l
 复制所有图片文件到 /data/images 目录下：
 
 \`\`\`shell
-ls *.jpg | xargs -n1 -I cp {} /data/images
+ls *.jpg | xargs -n1 -I{} cp {} /data/images
 \`\`\`
 
 #### 结合 find 命令使用

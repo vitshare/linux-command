@@ -1,5 +1,4 @@
 module.exports = `
-
 调用并执行指定的命令
 
 ## 补充说明
@@ -51,5 +50,4 @@ Linux C++                       # 使用指定指令输出信息
 通过比较两者执行后的结果来看，所实现的功能是相同的，即使用exec命令调用echo命令成功。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

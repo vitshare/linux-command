@@ -1,5 +1,4 @@
 module.exports = `
-
 显示文件十六进制格式
 
 ## 补充说明
@@ -56,5 +55,4 @@ hexdump -e '16/1 "%02X " "  |  "' -e '16/1 "%_p" "\n"' test
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

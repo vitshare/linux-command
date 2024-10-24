@@ -1,10 +1,9 @@
 module.exports = `
-
 功能强大的流式文本编辑器
 
 ## 补充说明
 
-**sed** 是一种流编辑器，它是文本处理中非常中的工具，能够完美的配合正则表达式使用，功能不同凡响。处理时，把当前处理的行存储在临时缓冲区中，称为“模式空间”（pattern space），接着用sed命令处理缓冲区中的内容，处理完成后，把缓冲区的内容送往屏幕。接着处理下一行，这样不断重复，直到文件末尾。文件内容并没有 改变，除非你使用重定向存储输出。Sed主要用来自动编辑一个或多个文件；简化对文件的反复操作；编写转换程序等。
+**sed** 是一种流编辑器，它是文本处理中非常重要的工具，能够完美的配合正则表达式使用，功能不同凡响。处理时，把当前处理的行存储在临时缓冲区中，称为“模式空间”（pattern space），接着用sed命令处理缓冲区中的内容，处理完成后，把缓冲区的内容送往屏幕。接着处理下一行，这样不断重复，直到文件末尾。文件内容并没有 改变，除非你使用重定向存储输出。Sed主要用来自动编辑一个或多个文件；简化对文件的反复操作；编写转换程序等。
 
 ## sed的选项、命令、替换标记  
 
@@ -67,7 +66,7 @@ p # 表示打印行。
 w # 表示把行写入一个文件。  
 x # 表示互换模板块中的文本和缓冲区中的文本。  
 y # 表示把一个字符翻译为另外的字符（但是不用于正则表达式）
-\\1 # 子串匹配标记
+\1 # 子串匹配标记
 & # 已匹配字符串标记
 \`\`\`
 
@@ -78,9 +77,9 @@ y # 表示把一个字符翻译为另外的字符（但是不用于正则表达�
 $ # 匹配行结束，如：/sed$/匹配所有以sed结尾的行。
 . # 匹配一个非换行符的任意字符，如：/s.d/匹配s后接一个任意字符，最后是d。
 * # 匹配0个或多个字符，如：/*sed/匹配所有模板是一个或多个空格后紧跟sed的行。
-[] # 匹配一个指定范围内的字符，如/[ss]ed/匹配sed和Sed。  
+[] # 匹配一个指定范围内的字符，如/[sS]ed/匹配sed和Sed。  
 [^] # 匹配一个不在指定范围内的字符，如：/[^A-RT-Z]ed/匹配不包含A-R和T-Z的一个字母开头，紧跟ed的行。
-\\(..\\) # 匹配子串，保存匹配的字符，如s/\\(love\\)able/\\1rs，loveable被替换成lovers。
+\(..\) # 匹配子串，保存匹配的字符，如s/\(love\)able/\1rs，loveable被替换成lovers。
 & # 保存搜索字符用来替换其他字符，如s/love/ **&** /，love这成 **love** 。
 \< # 匹配单词的开始，如:/\<love/匹配包含以love开头的单词的行。
 \> # 匹配单词的结束，如/love\>/匹配包含以love结尾的单词的行。
@@ -171,9 +170,10 @@ sed '2,$d' file
 sed '$d' file
 \`\`\`
 
-删除文件中所有开头是test的行：
+删除文件中所有开头是test的行(d写外边效果一样)：
 
 \`\`\`shell
+sed '/^test/d' file
 sed '/^test/'d file
 \`\`\`
 
@@ -193,37 +193,82 @@ sed 's/^192.168.0.1/&localhost/' file
 192.168.0.1localhost
 \`\`\`
 
-###  子串匹配标记\\1 
+###  子串匹配标记\1 
 
 匹配给定样式的其中一部分：
 
 \`\`\`shell
-echo this is digit 7 in a number | sed 's/digit \([0-9]\)/\\1/'
+echo this is digit 7 in a number | sed 's/digit \([0-9]\)/\1/'
 this is 7 in a number
 \`\`\`
 
-命令中 digit 7，被替换成了 7。样式匹配到的子串是 7，\\(..\\) 用于匹配子串，对于匹配到的第一个子串就标记为  **\\1** ，依此类推匹配到的第二个结果就是  **\\2** ，例如：
+命令中 digit 7，被替换成了 7。样式匹配到的子串是 7，\(..\) 用于匹配子串，对于匹配到的第一个子串就标记为  **\1** ，依此类推匹配到的第二个结果就是  **\2** ，例如：
 
 \`\`\`shell
-echo aaa BBB | sed 's/\([a-z]\+\) \([A-Z]\+\)/\\2 \\1/'
+echo aaa BBB | sed 's/\([a-z]\+\) \([A-Z]\+\)/\2 \1/'
 BBB aaa
 \`\`\`
 
 love被标记为1，所有loveable会被替换成lovers，并打印出来：
 
 \`\`\`shell
-sed -n 's/\(love\)able/\\1rs/p' file
+sed -n 's/\(love\)able/\1rs/p' file
+\`\`\`
+
+通过替换获取ip：
+\`\`\`shell
+ifconfig ens32 | sed -n '/inet /p' | sed 's/inet \([0-9.]\+\).*/\1/'
+192.168.75.126
+\`\`\`
+
+### 大小写转换U/L
+
+\`\`\`shell
+\u：	首字母转换为大写
+\U：  全部转换为大写
+\l：	 首字母转换为小写
+\L：	 全部转换为小写
+\`\`\`
+
+首字母转换为大写：
+\`\`\`shell
+[root@node6 ~]# sed 's/^[a-z]\+/\u&/' passwd 
+Root:x:0:0:root:/root:/bin/bash
+Bin:x:1:1:bin:/bin:/sbin/nologin
+Daemon:x:2:2:daemon:/sbin:/sbin/nologin
+Adm:x:3:4:adm:/var/adm:/sbin/nologin
+Lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+Sync:x:5:0:sync:/sbin:/bin/sync
+\`\`\`
+
+匹配到的字符全部转换为大写：
+\`\`\`shell
+[root@node6 ~]# sed 's/^[a-z]\+/\U&/' passwd 
+ROOT:x:0:0:root:/root:/bin/bash
+BIN:x:1:1:bin:/bin:/sbin/nologin
 \`\`\`
 
 ###  组合多个表达式 
 
+1. 替换文本中的多个字符串：
+
 \`\`\`shell
-sed '表达式' | sed '表达式'
-
-等价于：
-
-sed '表达式; 表达式'
+sed -e 's/old_string/new_string/g' -e 's/another_old_string/another_new_string/g' file.txt
 \`\`\`
+
+2. 删除文本中的多个行：
+
+\`\`\`shell
+sed -e '1d' -e '/pattern/d' file.txt
+\`\`\`
+
+3. 在文本中插入多个行：
+
+\`\`\`shell
+sed -e '1i\inserted_line1' -e '2i\inserted_line2' file.txt
+\`\`\`
+
+其中，-e 表示指定一个表达式，多个表达式之间用 -e 分隔。每个表达式可以是一个 sed 命令，例如 s、d、i 等。
 
 ###  引用 
 
@@ -314,6 +359,38 @@ sed '/^test/i\this is a test line' file
 \`\`\`shell
 sed -i '5i\this is a test line' test.conf
 \`\`\`
+###  替换指定行：c\命令 
+把root开头的行替换新内容：
+\`\`\`shell
+[root@node6 ~]# sed '/^root/c this is new line!' passwd 
+this is new line!
+bin:x:1:1:bin:/bin:/sbin/nologin
+\`\`\`
+
+如果是指定范围替换，需要注意，sed不是每行进行替换，而是把整个范围作为整体替换：
+\`\`\`shell
+[root@node6 ~]# nl passwd | sed '1,5c\   this is dangerous!'
+     this is dangerous!
+     6	sync:x:5:0:sync:/sbin:/bin/sync
+     7	shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+\`\`\`
+如果想实现对第一行到第五行统一替换为相同内容，可以用下面的命令实现：
+\`\`\`shell
+[root@node5 ~]# sed '1{:a;s/.*/lutxixia/;n;6!ba}' passwd 
+lutxixia
+lutxixia
+lutxixia
+lutxixia
+lutxixia
+sync:x:5:0:sync:/sbin:/bin/sync
+
+其中：
+:a  	是设置一个循环标签
+s/.*/lutixia/	是用lutixia字符替换匹配到的每行内容
+n	是读取下一行
+6!	是读到第六行退出循环，终止操作,如果没有，则继续循环。
+ba	是如果没有到第六行就跳转到a继续循环
+\`\`\`
 
 ###  下一个：n命令 
 
@@ -333,10 +410,17 @@ sed '1,10y/abcde/ABCDE/' file
 
 ###  退出：q命令 
 
-打印完第10行后，退出sed
+打印完前10行后，退出sed:
 
 \`\`\`shell
 sed '10q' file
+\`\`\`
+
+直到找到第一个匹配项，退出sed：
+\`\`\`shell
+[root@node4 ~]# sed  '/nginx/q' nginx.yml 
+---
+- hosts: nginx
 \`\`\`
 
 ###  保持和获取：h命令和G命令 
@@ -390,5 +474,5 @@ awk '/SCC/{getline; print}' URFILE
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

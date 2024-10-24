@@ -1,5 +1,4 @@
 module.exports = `
-
 检查或设置系统的各种服务
 
 ## 补充说明
@@ -43,7 +42,7 @@ chkconfig(选项)
 
 运行级文件：
 
-每个被chkconfig管理的服务需要在对应的init.d下的脚本加上两行或者更多行的注释。第一行告诉chkconfig缺省启动的运行级以及启动和停止的优先级。如果某服务缺省不在任何运行级启动，那么使用\`-\`代替运行级。第二行对服务进行描述，可以用\`\\\`跨行注释。
+每个被chkconfig管理的服务需要在对应的init.d下的脚本加上两行或者更多行的注释。第一行告诉chkconfig缺省启动的运行级以及启动和停止的优先级。如果某服务缺省不在任何运行级启动，那么使用\`-\`代替运行级。第二行对服务进行描述，可以用\`\\`跨行注释。
 
 例如random.init包含三行：
 
@@ -75,5 +74,5 @@ chkconfig –level redis 2345 on # 把redis在运行级别为2、3、4、5的情
 3.  \`chkconfig --level 35 mysqld on\`修改服务的默认启动等级。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

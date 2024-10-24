@@ -1,5 +1,4 @@
 module.exports = `
-
 用来对文件或目录重新命名
 
 ## 补充说明
@@ -66,7 +65,7 @@ mv directory_1/ /home/office/
 
 重命名文件或目录
 
-\`\`\`shellbash
+\`\`\`shell
 mv file_1.txt file_2.txt # 将文件file_1.txt改名为file_2.txt
 \`\`\`
 
@@ -78,7 +77,7 @@ mv directory_1/ directory_2/
 
 打印移动信息
 
-\`\`\`shellbash
+\`\`\`shell
 mv -v *.txt /home/office
 \`\`\`
 
@@ -112,5 +111,5 @@ mv -bv *.txt /home/office
 mv -f *.txt /home/office
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

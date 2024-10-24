@@ -1,5 +1,4 @@
 module.exports = `
-
 显示物理卷的属性
 
 ## 补充说明
@@ -42,5 +41,4 @@ PV UUID         FOXiS2-Ghaj-Z0Mf- cdVZ-pfpk- dP9p-ifIZXN
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

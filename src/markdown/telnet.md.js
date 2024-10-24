@@ -1,5 +1,4 @@
 module.exports = `
-
 登录远程主机和管理(测试ip端口是否连通)
 
 ## 补充说明
@@ -133,5 +132,5 @@ telnet 23/udp
 service xinetd restart
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

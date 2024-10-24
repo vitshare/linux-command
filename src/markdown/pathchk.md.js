@@ -1,5 +1,4 @@
 module.exports = `
-
 检查文件中不可移植的部分
 
 ## 补充说明
@@ -28,5 +27,4 @@ pathchk(选项)(参数)
 *   后缀：可选参数，指定要去除的文件后缀字符串。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 一款sniffer工具，是Linux上的抓包工具，嗅探器
 
 ## 补充说明
@@ -119,7 +118,7 @@ tcpdump -i eth0 dst host hostname
 如果想要获取主机210.27.48.1接收或发出的telnet包，使用如下命令
 
 \`\`\`shell
-tcpdump tcp port 23 host 210.27.48.1
+tcpdump tcp port 23 and host 210.27.48.1
 \`\`\`
 
 对本机的udp 123 端口进行监视 123 为ntp的服务端口
@@ -161,5 +160,5 @@ sudo tcpdump -i any port 80 -A
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

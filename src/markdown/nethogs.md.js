@@ -1,5 +1,4 @@
 module.exports = `
-
 终端下的网络流量监控工具
 
 ## 补充说明
@@ -48,7 +47,7 @@ usage: nethogs [-V] [-h] [-b] [-d seconds] [-v mode] [-c count] [-t] [-p] [-s] [
 \`\`\`shell
 -d : 刷新间隔
 -h : 帮助
--p : promiscious 模式
+-p : promiscuous 模式
 -t : trace模式 
 -V : 版本
 \`\`\`
@@ -136,5 +135,5 @@ $ sudo nethogs eth0 eth1
 关于NetHogs命令行工具的完整参数列表，可以参考NetHogs的手册，使用方法是在终端里输入\`man nethogs\`或者\`sudo man nethogs\`，更多信息请参考NetHogs项目主页。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

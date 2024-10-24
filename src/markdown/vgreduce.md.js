@@ -1,5 +1,4 @@
 module.exports = `
-
 从卷组中删除物理卷
 
 ## 补充说明
@@ -39,5 +38,4 @@ Removed "/dev/sdb2" from volume group "vg2000"
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

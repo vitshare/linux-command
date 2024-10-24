@@ -1,5 +1,4 @@
 module.exports = `
-
 用来更换登录系统时使用的shell
 
 ## 补充说明
@@ -89,5 +88,4 @@ Shell changed.
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

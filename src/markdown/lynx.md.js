@@ -1,5 +1,4 @@
 module.exports = `
-
 纯文本模式的网页浏览器
 
 ## 补充说明
@@ -112,5 +111,4 @@ Ctrl+k：调用 Cookie Jar 页。
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

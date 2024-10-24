@@ -1,5 +1,4 @@
 module.exports = `
-
 向指定登录用户终端上发送信息
 
 ## 补充说明
@@ -40,5 +39,4 @@ write Rollaend pts/2
 若对方设定\`mesg n\`，则此时信息将无法传给对方。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

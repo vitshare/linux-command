@@ -1,5 +1,4 @@
 module.exports = `
-
 显示磁盘已使用的空间与限制
 
 ## 补充说明
@@ -147,5 +146,4 @@ Disk quotas for group qgroup (gid 502):
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

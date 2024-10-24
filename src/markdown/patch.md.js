@@ -1,5 +1,4 @@
 module.exports = `
-
 为开放源代码软件安装补丁程序
 
 ## 补充说明
@@ -55,5 +54,4 @@ patch(选项)(参数)
 * 补丁文件：指定补丁文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

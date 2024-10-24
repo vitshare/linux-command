@@ -1,5 +1,4 @@
 module.exports = `
-
 命令行方式打印机控制程序
 
 ## 补充说明
@@ -24,5 +23,4 @@ lpc> exit
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

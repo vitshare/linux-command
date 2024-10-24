@@ -1,5 +1,4 @@
 module.exports = `
-
 初始化和重建RPM数据库
 
 ## 补充说明
@@ -20,5 +19,4 @@ rpmdb(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 显示CUPS中打印机的状态信息
 
 ## 补充说明
@@ -29,5 +28,4 @@ lpstat(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

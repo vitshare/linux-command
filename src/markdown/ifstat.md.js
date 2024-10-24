@@ -1,5 +1,4 @@
 module.exports = `
-
 统计网络接口流量状态
 
 ## 补充说明
@@ -82,5 +81,5 @@ HH:MM:ss   KB/s in  KB/s out   KB/s in  KB/s out   KB/s in  KB/s out   KB/s in  
     0.61      0.61      0.26      0.23      0.00      0.00
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 在Linux系统下获取有关硬件方面的信息
 
 ## 补充说明
@@ -289,5 +288,5 @@ dmidecode|grep -A16 "Memory Device"|grep 'Speed'
 \`\`\`shell
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 该命令是bash内建命令，用于显示bash内建命令的帮助信息。
 
 ## 补充说明
@@ -60,11 +59,11 @@ shopt: shopt [-pqsu] [-o long-option] optname [optname...]
     unsets each OPTNAME.  The -q flag suppresses output; the exit
     status indicates whether each OPTNAME is set or unset.  The -o
     option restricts the OPTNAMEs to those defined for use with
-    \`set -o\'.  With no options, or with the -p option, a list of all
+    \`set -o'.  With no options, or with the -p option, a list of all
     settable options is displayed, with an indication of whether or
     not each is set.
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

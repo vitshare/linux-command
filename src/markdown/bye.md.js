@@ -1,5 +1,4 @@
 module.exports = `
-
 命令用于中断FTP连线并结束程序
 
 ## 补充说明

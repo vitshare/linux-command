@@ -1,5 +1,4 @@
 module.exports = `
-
 显示与设定硬件时钟
 
 ## 补充说明
@@ -61,5 +60,4 @@ ARC=false
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

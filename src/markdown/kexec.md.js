@@ -1,5 +1,4 @@
 module.exports = `
-
 从当前正在运行的内核引导到一个新内核
 
 ## 补充说明
@@ -25,5 +24,4 @@ kexec(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

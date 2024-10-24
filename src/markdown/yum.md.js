@@ -1,5 +1,4 @@
 module.exports = `
-
 基于RPM的软件包管理器
 
 ## 补充说明
@@ -43,7 +42,8 @@ shell：进入yum的shell提示符；
 resolvedep：显示rpm软件包的依赖关系；
 localinstall：安装本地的rpm软件包；
 localupdate：显示本地rpm软件包进行更新；
-deplist：显示rpm软件包的所有依赖关系。
+deplist：显示rpm软件包的所有依赖关系；
+provides：查询某个程序所在安装包。
 \`\`\`
 
 ### 实例
@@ -96,16 +96,16 @@ yum deplist package1               #查看程序package1依赖情况
 **清除缓存**
 
 \`\`\`shell
-yum clean packages       #清除缓存目录下的软件包
-yum clean headers        #清除缓存目录下的 headers
-yum clean oldheaders     #清除缓存目录下旧的 headers
+yum clean packages       # 清除缓存目录下的软件包
+yum clean headers        # 清除缓存目录下的 headers
+yum clean oldheaders     # 清除缓存目录下旧的 headers
 \`\`\`
 
 **更多实例**
 
 \`\`\`shell
 # yum
-/etc/yum.repos.d/       yum 源配置文件
+/etc/yum.repos.d/       # yum 源配置文件
 vi /etc/yum.repos.d/nginx.repo # 举个栗子: nginx yum源
 [nginx]
 name=nginx repo
@@ -125,5 +125,5 @@ yum groupinstall "Chinese Support" # 添加中文语言支持
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

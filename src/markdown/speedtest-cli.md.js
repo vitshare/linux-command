@@ -1,5 +1,4 @@
 module.exports = `
-
 命令行下测试服务器外网速度
 
 ## 补充说明
@@ -118,5 +117,4 @@ Share results: http://www.speedtest.net/result/3240988007.png
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

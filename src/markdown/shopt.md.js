@@ -1,5 +1,4 @@
 module.exports = `
-
 显示和设置shell操作选项
 
 ## 补充说明
@@ -29,16 +28,55 @@ shell选项：指定要操作的shell选项。
 
 \`\`\`shell
 shopt           #输出所有可以设置的shell操作选项
-cdable_vars     off
-cdspell         off
-checkhash       off
-checkwinsize    on
-cmdhist         on
-dotglob         off
-execfail        off
-expand_aliases  on
-extdebug        off
-...
+autocd         	off
+cdable_vars    	off
+cdspell        	off
+checkhash      	off
+checkjobs      	off
+checkwinsize   	on
+cmdhist        	on
+compat31       	off
+compat32       	off
+compat40       	off
+compat41       	off
+compat42       	off
+compat43       	off
+complete_fullquote	on
+direxpand      	off
+dirspell       	off
+dotglob        	off
+execfail       	off
+expand_aliases 	on
+extdebug       	off
+extglob        	off
+extquote       	on
+failglob       	off
+force_fignore  	on
+globasciiranges	off
+globstar       	off
+gnu_errfmt     	off
+histappend     	on
+histreedit     	off
+histverify     	off
+hostcomplete   	on
+huponexit      	off
+inherit_errexit	off
+interactive_comments	on
+lastpipe       	off
+lithist        	off
+login_shell    	on
+mailwarn       	off
+no_empty_cmd_completion	off
+nocaseglob     	off
+nocasematch    	off
+nullglob       	off
+progcomp       	on
+promptvars     	on
+restricted_shell	off
+shift_verbose  	off
+sourcepath     	on
+syslog_history 	off
+xpg_echo       	off
 \`\`\`
 
 如图上所示，选项"cdspell"的状态为"off"，即关闭cd拼写检查选项。现在，可以使用shopt命令将其开启，输入如下命令：
@@ -56,5 +94,4 @@ cdspell on                #开启cdspell选项
 用户可以通过实际执行cd命令检查该选项是否被成功开启。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

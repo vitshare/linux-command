@@ -1,5 +1,4 @@
 module.exports = `
-
 运行DHCP服务器
 
 ###  语法
@@ -53,5 +52,5 @@ it workbetter with this distribution.
 exiting.
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

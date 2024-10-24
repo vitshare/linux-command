@@ -1,5 +1,4 @@
 module.exports = `
-
 连接文件并打印到标准输出设备上
 
 ## 补充说明
@@ -154,6 +153,19 @@ efghijklmnopqrstuvwxyz
 efghijklmnopqrstuvwxyz
 efghijklmnopqrstuvwxyz
 efghijklmnopqrstuvwxyz
+\`\`\`
+
+打印最后5个字符: 
+
+遗憾的是, \`cut\`并没有提供最后字符的支持. 不过我们可以通过字符串反转来实现. 
+
+\`\`\`shell
+[root@localhost text]# cat test.txt| rev | cut -c -5 | rev
+vwxyz
+vwxyz
+vwxyz
+vwxyz
+vwxyz
 \`\`\`
 
 <!-- Linux 命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->

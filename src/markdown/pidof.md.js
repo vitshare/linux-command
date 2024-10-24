@@ -1,5 +1,4 @@
 module.exports = `
-
 查找指定名称的进程的进程号ID号
 
 ## 补充说明
@@ -39,5 +38,4 @@ pidof init
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

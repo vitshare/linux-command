@@ -1,5 +1,4 @@
 module.exports = `
-
 列出X Server使用的字体
 
 ## 补充说明
@@ -26,5 +25,4 @@ xlsfonts(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

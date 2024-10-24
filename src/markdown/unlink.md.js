@@ -1,5 +1,4 @@
 module.exports = `
-
 系统调用函数unlink去删除指定的文件
 
 ## 补充说明
@@ -24,5 +23,4 @@ unlink(选项)(参数)
 文件：指定要删除的文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

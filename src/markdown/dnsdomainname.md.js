@@ -1,5 +1,4 @@
 module.exports = `
-
 定义DNS系统中FQDN名称的域名
 
 ## 补充说明
@@ -29,5 +28,4 @@ Result: h_addr_list=\`10.160.7.81'
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

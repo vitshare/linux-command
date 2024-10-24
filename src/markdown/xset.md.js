@@ -1,5 +1,4 @@
 module.exports = `
-
 设置X-Window系统中的用户爱好的实用工具
 
 ## 补充说明
@@ -25,5 +24,4 @@ xset(选项)(参数)
 * s：屏幕保护程序设置。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

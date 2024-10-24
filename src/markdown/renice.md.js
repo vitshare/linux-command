@@ -1,5 +1,4 @@
 module.exports = `
-
 修改正在运行的进程的调度优先级
 
 ## 补充说明
@@ -35,5 +34,4 @@ renice 1 987 -u daemon root -p 32
 注意：每一个行程都有一个唯一的id。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

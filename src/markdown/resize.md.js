@@ -1,5 +1,4 @@
 module.exports = `
-
 命令设置终端机视窗的大小
 
 ## 补充说明
@@ -49,5 +48,5 @@ export COLUMNS LINES;
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

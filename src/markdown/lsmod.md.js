@@ -1,5 +1,4 @@
 module.exports = `
-
 显示已载入系统的模块
 
 ## 补充说明
@@ -99,5 +98,4 @@ ehci_hcd               34509  0
 通常在使用lsmod命令时，都会采用类似\`lsmod | grep -i ext3\`这样的命令来查询当前系统是否加载了某些模块。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

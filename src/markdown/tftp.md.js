@@ -1,5 +1,4 @@
 module.exports = `
-
 在本机和tftp服务器之间使用TFTP协议传输文件
 
 ## 补充说明
@@ -154,5 +153,4 @@ tftp -g -r embedexpert 192.168.1.2
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 配置网络设备协商方式的工具
 
 ## 补充说明
@@ -69,5 +68,4 @@ eth0: 100 Mbit, full duplex, link ok
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

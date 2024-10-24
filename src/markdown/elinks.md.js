@@ -1,5 +1,4 @@
 module.exports = `
-
 纯文本界面的WWW浏览器
 
 ## 补充说明
@@ -28,5 +27,4 @@ elinks(选项)(参数)
 URL：指定要访问的URL地址。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 显示给定模块的详细信息
 
 ## 补充说明
@@ -46,5 +45,4 @@ depends:    scsi_mod
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

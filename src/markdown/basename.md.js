@@ -1,5 +1,4 @@
 module.exports = `
-
 打印目录或者文件的基本名称
 
 ## 补充说明
@@ -43,5 +42,4 @@ OFILE=\`basename $1 .c\`.o
 此命令指定给 OFILE 文件第一个位置上的参数（$1）的值，但它的 .c 后缀更改至 .o。如果 $1 是 /home/jim/program.c 文件，则 OFILE 成为 program.o。因为 program.o 仅是一个基本文件名称，它标识在当前目录中的文件。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

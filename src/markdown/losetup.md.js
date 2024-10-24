@@ -1,5 +1,4 @@
 module.exports = `
-
 设定与控制循环（loop）设备
 
 ## 补充说明
@@ -66,5 +65,4 @@ losetup -d /dev/loop1
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

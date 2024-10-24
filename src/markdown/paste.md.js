@@ -1,5 +1,4 @@
 module.exports = `
-
 将多个文件按列队列合并
 
 ## 补充说明
@@ -24,5 +23,4 @@ paste(选项)(参数)
 文件列表：指定需要合并的文件列表。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

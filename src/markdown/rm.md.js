@@ -1,5 +1,4 @@
 module.exports = `
-
 用于删除给定的文件和目录
 
 ## 补充说明
@@ -47,14 +46,38 @@ Remove example ?y（删除文件example)
 
 应注意，这样做是非常危险的!
 
-**rm 命令删除文件**
+**删除当前目录下的 package-lock.json 文件**
 
-\`\`\`shellbash
+\`\`\`shell
+find .  -name "package-lock.json" -exec rm -rf {} \;
+\`\`\`
+
+**查找 *.html 结尾的文件并删除**
+
+\`\`\`shell
+find ./docs -name "*.html" -exec rm -rf {} \;
+\`\`\`
+
+**删除当前项目下 *.html 结尾的文件**
+
+\`\`\`shell
+rm -rf *.html
+\`\`\`
+
+**删除当前目录下的 node_modules 目录**
+
+\`\`\`shell
+find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
+\`\`\`
+
+**删除文件**
+
+\`\`\`shell
 # rm 文件1 文件2 ...
 rm testfile.txt
 \`\`\`
 
-**rm 命令删除目录**
+**删除目录**
 
 > rm -r [目录名称]
 > -r 表示递归地删除目录下的所有文件和目录。
@@ -71,6 +94,12 @@ rm -r testdir
 
 \`\`\`shell
 rm -r -i testdir
+\`\`\`
+
+**批量删除 \`icons\` 文件夹中的子文件夹中的 data 文件夹**
+
+\`\`\`shell
+rm -rf icons/**/data
 \`\`\`
 
 **rm 忽略不存在的文件或目录**
@@ -96,7 +125,7 @@ rm -I file1 file2 file3
 > 然而，如果你非得完成这个操作，你需要使用 --no-preserve-root 选项。当提供此选项，rm 就不会特殊处理根目录（/）了。
 
 \`\`\`shell
-不给实例了，操作系统都被你删除了，你太坏了😆
+不给示例了，操作系统都被你删除了，你太坏了😆
 \`\`\`
 
 **rm 显示当前删除操作的详情**
@@ -105,5 +134,5 @@ rm -I file1 file2 file3
 rm -v [文件/目录]
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 算术操作精密运算工具
 
 ## 补充说明
@@ -75,5 +74,4 @@ echo "sqrt(100)" | bc
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

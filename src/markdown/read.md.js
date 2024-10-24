@@ -1,5 +1,4 @@
 module.exports = `
-
 从键盘读取变量值
 
 ## 补充说明
@@ -121,7 +120,7 @@ stephen
 #read -a friends
 Tim Tom Helen
 
-#echo "They are \${friends[0]}, \${friends[1]} and \${friends[2]}."
+#echo "They are ${friends[0]}, ${friends[1]} and ${friends[2]}."
 They are Tim, Tom and Helen.
 \`\`\`
 
@@ -176,5 +175,4 @@ Linux c+           #输出变量值
 注意：使用echo命令输出变量值时，必须在变量名前添加符号\`$\`。否则，echo将直接输出变量名。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

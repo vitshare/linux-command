@@ -1,5 +1,4 @@
 module.exports = `
-
 Debian Linux中创建并管理一个转向列表
 
 ## 补充说明
@@ -53,5 +52,4 @@ dpkg-divert --divert /usr/bin/example.foo --rename /usr/bin/example
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 列出显示器中的客户端应用程序
 
 ## 补充说明
@@ -22,5 +21,4 @@ xlsclients(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

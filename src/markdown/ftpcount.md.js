@@ -1,5 +1,4 @@
 module.exports = `
-
 显示目前已FTP登入的用户人数
 
 ## 补充说明
@@ -13,5 +12,4 @@ ftpcount
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

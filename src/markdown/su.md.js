@@ -1,5 +1,4 @@
 module.exports = `
-
 用于切换当前用户身份到其他用户身份
 
 ## 补充说明
@@ -45,9 +44,8 @@ su root -f
 变更帐号为test并改变工作目录至test的家目录：
 
 \`\`\`shell
-su -test
+su - test
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

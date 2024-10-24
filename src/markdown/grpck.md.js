@@ -1,5 +1,4 @@
 module.exports = `
-
 用于验证组文件的完整性
 
 ## 补充说明
@@ -46,5 +45,4 @@ grpck: the files have been updated  # 这时已经删除了错误的行，提示
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

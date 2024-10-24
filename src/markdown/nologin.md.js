@@ -1,5 +1,4 @@
 module.exports = `
-
 拒绝用户登录系统
 
 ## 补充说明
@@ -55,5 +54,4 @@ touch /etc/nologin
 除root以外的用户不能登录了。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

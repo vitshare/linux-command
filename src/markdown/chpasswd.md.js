@@ -1,5 +1,4 @@
 module.exports = `
-
 批量更新用户口令的工具
 
 ## 补充说明
@@ -31,5 +30,4 @@ chpasswd < user.txt
 以上是运用chpasswd命令来批量修改密码。是linux系统管理中的捷径。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

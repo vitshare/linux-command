@@ -1,5 +1,4 @@
 module.exports = `
-
 显示待发送的邮件队列
 
 ## 补充说明
@@ -27,5 +26,4 @@ mailq(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

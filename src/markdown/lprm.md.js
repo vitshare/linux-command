@@ -1,5 +1,4 @@
 module.exports = `
-
 删除打印队列中的打印任务
 
 ## 补充说明
@@ -39,5 +38,4 @@ lprm 101
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

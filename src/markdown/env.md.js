@@ -1,5 +1,4 @@
 module.exports = `
-
 显示系统中已存在的环境变量
 
 ## 补充说明
@@ -53,5 +52,4 @@ _=/bin/env
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

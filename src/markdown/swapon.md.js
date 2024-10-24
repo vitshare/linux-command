@@ -1,5 +1,4 @@
 module.exports = `
-
 激活Linux系统中交换空间
 
 ## 补充说明
@@ -38,5 +37,4 @@ Filename                                type            Size    Used    Priority
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

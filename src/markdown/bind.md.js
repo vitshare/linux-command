@@ -1,5 +1,4 @@
 module.exports = `
-
 显示或设置键盘按键与其相关的功能
 
 ## 补充说明
@@ -32,7 +31,7 @@ bind -x '"\C-l":ls -l'    #直接按 CTRL+L 就列出目录
 其中keyseq可以使用\`showkey -a\`命令来获取：
 
 \`\`\`shell
-[root@localhost ~]# showkey -a
+showkey -a
 
 Press any keys - Ctrl-D will terminate this program
 
@@ -55,5 +54,4 @@ Press any keys - Ctrl-D will terminate this program
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

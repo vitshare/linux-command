@@ -1,5 +1,4 @@
 module.exports = `
-
 在系统不繁忙的时候执行定时任务
 
 ## 补充说明
@@ -34,5 +33,4 @@ job 5 at Sun Apr 28 08:49:00 2013
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

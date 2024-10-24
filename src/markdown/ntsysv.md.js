@@ -1,5 +1,4 @@
 module.exports = `
-
 集中管理系统的各种服务
 
 ## 补充说明
@@ -30,5 +29,5 @@ ntsysv(选项)
 使用空格键选择或者取消选项！
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
 `;

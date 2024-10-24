@@ -1,5 +1,4 @@
 module.exports = `
-
 Apache服务器内置工具
 
 ## 补充说明
@@ -25,5 +24,4 @@ htdigest(选项)(参数)
 *   用户名：要创建或者更新的用户名。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

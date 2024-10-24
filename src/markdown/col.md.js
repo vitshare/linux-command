@@ -1,5 +1,4 @@
 module.exports = `
-
 过滤控制字符
 
 ## 补充说明
@@ -22,5 +21,4 @@ col(选项)
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

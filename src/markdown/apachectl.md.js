@@ -1,5 +1,4 @@
 module.exports = `
-
 Apache服务器前端控制工具
 
 ## 补充说明
@@ -24,5 +23,4 @@ apachectl(参数)
 * stop：停止Apache服务器。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

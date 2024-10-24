@@ -1,5 +1,4 @@
 module.exports = `
-
 显示二进制文件信息
 
 ## 补充说明
@@ -483,5 +482,4 @@ Idx Name          Size      VMA       LMA       File off  Algn
 这里，更多的内容参见\`man objdump\`中的这个选项。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

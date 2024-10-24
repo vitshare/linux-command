@@ -1,5 +1,4 @@
 module.exports = `
-
 建立和设置SWAP交换分区
 
 ## 补充说明
@@ -110,5 +109,4 @@ swapoff /dev/sdb2
 从\`/etc/fstab\`中删除项目，使用fdisk或yast工具删除分区。
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

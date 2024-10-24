@@ -1,5 +1,4 @@
 module.exports = `
-
 可建立目前系统的启动盘
 
 ## 补充说明
@@ -39,5 +38,4 @@ mkbootdisk --device /dev/fd0 2.2.18
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

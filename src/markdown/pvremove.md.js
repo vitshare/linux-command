@@ -1,5 +1,4 @@
 module.exports = `
-
 删除一个存在的物理卷
 
 ## 补充说明
@@ -34,5 +33,4 @@ Labels on physical volume "/dev/sdb2" successfully wiped
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

@@ -1,5 +1,4 @@
 module.exports = `
-
 时动态地修改内核的运行参数
 
 ## 补充说明
@@ -185,5 +184,4 @@ net.ipv4.icmp_echo_ignore_all = 1
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

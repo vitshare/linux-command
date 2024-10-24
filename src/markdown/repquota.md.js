@@ -1,5 +1,4 @@
 module.exports = `
-
 报表的格式输出磁盘空间限制的状态
 
 ## 补充说明
@@ -34,5 +33,4 @@ repquota -a
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

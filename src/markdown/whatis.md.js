@@ -1,5 +1,4 @@
 module.exports = `
-
 查询一个命令执行什么功能
 
 ## 补充说明
@@ -41,5 +40,4 @@ man.config [man]     (5)  - configuration data for man
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

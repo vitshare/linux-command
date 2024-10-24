@@ -1,5 +1,4 @@
 module.exports = `
-
 转换卷组元数据格式
 
 ## 补充说明
@@ -47,5 +46,4 @@ Volume group vg1000 successfully converted
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

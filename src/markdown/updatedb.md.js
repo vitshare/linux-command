@@ -1,5 +1,4 @@
 module.exports = `
-
 创建或更新slocate命令所必需的数据库文件
 
 ## 补充说明
@@ -31,5 +30,4 @@ updatedb -U /usr/local/  更新指定命令的slocate数据库
 \`\`\`
 
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
 `;

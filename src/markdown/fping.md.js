@@ -1,5 +1,4 @@
 module.exports = `
-
 fping检测主机是否存在
 
 ## 补充说明
@@ -74,5 +73,6 @@ ping某一段ip：
 192.168.0.130
 \`\`\`
 
-<!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
+
+
 `;
